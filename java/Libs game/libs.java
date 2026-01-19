@@ -28,7 +28,7 @@ public class libs {
          adjective3 = scanner.nextLine();
 
         
-        System.out.println("Today I went to a " + adjective1 + "Zoo");
+        System.out.println("\nToday I went to a " + adjective1 + "Zoo");
         System.out.println("In a exhibit , I saw a " + noun1 + ".");
         System.out.println(noun1 + " was " + adjective2 + " and " + verb1 + "!");
         System.out.println(" I was " + adjective3 + "!" );
