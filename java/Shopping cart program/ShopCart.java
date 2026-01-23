@@ -21,7 +21,11 @@ public class ShopCart {
         System.out.println("How maney would you like ?:");
         quantity = scanner.nextInt();
 
-        
+
+        total = prize * quantity;
+        System.out.println( total);
+
+
         scanner.close();
     }
 }
