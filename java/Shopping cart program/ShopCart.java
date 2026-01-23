@@ -12,19 +12,19 @@ public class ShopCart {
         char currency = '$';
         double total;
 
-        System.out.println("what item would you like to buy ? :");
+        System.out.print("what item would you like to buy ? :");
         item = scanner.nextLine();
 
         System.out.print("What is the price for each ?:");
         price = scanner.nextDouble();
 
-        System.out.println("How maney would you like ?:");
+        System.out.print("How maney would you like ?:");
         quantity = scanner.nextInt();
 
 
-        total = prize * quantity;
-        System.out.println( total);
-
+        total = price * quantity;
+        System.out.println( "\n You have brought " + quantity + "  " + item + "/s");
+        System.out.println(" Your total is " + currency + total );
 
         scanner.close();
     }
