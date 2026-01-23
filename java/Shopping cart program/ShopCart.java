@@ -18,8 +18,10 @@ public class ShopCart {
         System.out.print("What is the price for each ?:");
         price = scanner.nextDouble();
 
-        System.out.println(price);
+        System.out.println("How maney would you like ?:");
+        quantity = scanner.nextInt();
 
+        
         scanner.close();
     }
 }
